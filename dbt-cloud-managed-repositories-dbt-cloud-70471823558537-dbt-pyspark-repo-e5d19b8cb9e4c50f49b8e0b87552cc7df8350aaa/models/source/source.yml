@@ -1,0 +1,16 @@
+sources:
+  - name: source_bronze
+    database: dbtpysparkproject  
+    schema: bronze  
+    tables:
+      - name: trips
+
+  - name: source_silver
+    database: dbtpysparkproject  
+    schema: silver  
+    tables:
+      - name: customers
+      - name: locations
+      - name: payments
+      - name: drivers
+      - name: vehicles
